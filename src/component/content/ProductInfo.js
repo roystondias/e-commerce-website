@@ -3,13 +3,9 @@ import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import styles from './ProductInfo.module.css'
 import { useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
 
 function ProductInfo(props) {
-  const location = useLocation();
-  useEffect(() => {
-    console.log(location);
-  }, [])
+  const connection = useLocation();
   
   return (
     <div>
@@ -17,11 +13,13 @@ function ProductInfo(props) {
       <div className={styles.container}>
         <div className="card text-center">
           <div className="card-header">
-            {location.state.title}
+            {connection.state.title}
           </div>
           <div className="card-body">
-            <img src={location.state.image}/>
-            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <img src={connection.state.image}/>
+            <p className="card-text">{connection.state.price}</p>
+            <p className="card-text">{connection.state.description}</p>
+            <p className="card-text">{connection.state.rating}</p>
             <div className="btn btn-primary">Add To Cart</div>
           </div>
         </div>

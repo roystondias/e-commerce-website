@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
 import { Link } from "react-router-dom";
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 function Header() {
     return (
@@ -15,7 +16,11 @@ function Header() {
                         <li><a href="/">Contact us</a></li>
                         <li><a href="/">Sign Up</a></li>
                         <li><Link to="/cart">Cart</Link></li>
+                        <Link to="/cart" style={{ textDecoration: 'none', color:'white' }}>
+                            <ShoppingBasketIcon></ShoppingBasketIcon><span>0</span>
+                        </Link>
                     </ul>
+
                 </nav>
             </div>
         </header>
