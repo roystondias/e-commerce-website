@@ -2,43 +2,49 @@
     {
         "id": 1,
         "title": "The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback",
-        "price": 11.96,
+        "price": 500,
         "rating": 5,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg",
+        "description": "Every so often a business book comes along that changes how we think about innovation and entrepreneurship. The Lean Startup has the chops to join this exalted company ? Financial Times, Philip Delves Broughton Mandatory reading for entrepreneurs... loaded with fascinating stories and practical principles ? Dan Heath, coauthor of Switch and Made to Stick If you are an entrepreneur, read this book. If you are thinking about becoming an entrepreneur, read this book. If you are just curious about entrepreneurship, read this book ? Randy Komisar, founding director of TiVo The Lean Startup will change the way we think about entrepreneurship ? Tom Eisenmann, Professor of Entrepreneurship, Harvard Business School Eric Ries has created a science where previously there was only art. A must-read for every serious entrepreneur - and every manager interested in innovation ? Marc Andreessen, cofounder of Andreessen Horowitz, Opsware, and Netscape I know of no better guide to improve the odds of a startup's success ? Mitchell Kapor, Founder, Lotus Development Corp This book is the guided tour of the key innovative practices used inside Google, Toyota, and Facebook, that work in any business ? Scott Cook, Founder and Chairman, Intuit The Lean Startup changes everything ? Harvard Business Review You should think like a lean startup even if you're not a lean startup ? Forbes"
     },
     {
         "id": 2,
         "title": "Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl",
-        "price": 239.0,
+        "price": 5000,
         "rating": 4,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa lorem. Curabitur iaculis orci neque, ac commodo velit congue et. Quisque vestibulum in ipsum a interdum. Proin eleifend velit erat, ut hendrerit nisl posuere pulvinar. Quisque vel mauris mollis, posuere risus euismod, sollicitudin sem. Aenean dignissim vel sapien vel ullamcorper. Nulla iaculis condimentum neque, sed tincidunt metus dictum nec. Curabitur mattis, ipsum ut vehicula scelerisque, ex erat suscipit turpis, vel cursus dui justo in lectus. Etiam mollis efficitur lectus suscipit elementum. Curabitur in viverra sem, eu elementum erat. Morbi a interdum ante. Integer consectetur odio sit amet aliquam rutrum."
     },
     {
         "id": 3,
         "title": "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor",
-        "price": 199.99,
+        "price": 50000,
         "rating": 3,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa lorem. Curabitur iaculis orci neque, ac commodo velit congue et. Quisque vestibulum in ipsum a interdum. Proin eleifend velit erat, ut hendrerit nisl posuere pulvinar. Quisque vel mauris mollis, posuere risus euismod, sollicitudin sem. Aenean dignissim vel sapien vel ullamcorper. Nulla iaculis condimentum neque, sed tincidunt metus dictum nec. Curabitur mattis, ipsum ut vehicula scelerisque, ex erat suscipit turpis, vel cursus dui justo in lectus. Etiam mollis efficitur lectus suscipit elementum. Curabitur in viverra sem, eu elementum erat. Morbi a interdum ante. Integer consectetur odio sit amet aliquam rutrum."
     },
     {
         "id": 4,
         "title": "Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric",
-        "price": 98.99,
+        "price": 7000,
         "rating": 5,
-        "image": "https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+        "image": "https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa lorem. Curabitur iaculis orci neque, ac commodo velit congue et. Quisque vestibulum in ipsum a interdum. Proin eleifend velit erat, ut hendrerit nisl posuere pulvinar. Quisque vel mauris mollis, posuere risus euismod, sollicitudin sem. Aenean dignissim vel sapien vel ullamcorper. Nulla iaculis condimentum neque, sed tincidunt metus dictum nec. Curabitur mattis, ipsum ut vehicula scelerisque, ex erat suscipit turpis, vel cursus dui justo in lectus. Etiam mollis efficitur lectus suscipit elementum. Curabitur in viverra sem, eu elementum erat. Morbi a interdum ante. Integer consectetur odio sit amet aliquam rutrum."
     },
     {
         "id": 5,
         "title": "New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
-        "price": 598.99,
+        "price": 90000,
         "rating": 4,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa lorem. Curabitur iaculis orci neque, ac commodo velit congue et. Quisque vestibulum in ipsum a interdum. Proin eleifend velit erat, ut hendrerit nisl posuere pulvinar. Quisque vel mauris mollis, posuere risus euismod, sollicitudin sem. Aenean dignissim vel sapien vel ullamcorper. Nulla iaculis condimentum neque, sed tincidunt metus dictum nec. Curabitur mattis, ipsum ut vehicula scelerisque, ex erat suscipit turpis, vel cursus dui justo in lectus. Etiam mollis efficitur lectus suscipit elementum. Curabitur in viverra sem, eu elementum erat. Morbi a interdum ante. Integer consectetur odio sit amet aliquam rutrum."
     },
     {
         "id": 6,
         "title": "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440",
-        "price": 1094.98,
+        "price": 99000,
         "rating": 4,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa lorem. Curabitur iaculis orci neque, ac commodo velit congue et. Quisque vestibulum in ipsum a interdum. Proin eleifend velit erat, ut hendrerit nisl posuere pulvinar. Quisque vel mauris mollis, posuere risus euismod, sollicitudin sem. Aenean dignissim vel sapien vel ullamcorper. Nulla iaculis condimentum neque, sed tincidunt metus dictum nec. Curabitur mattis, ipsum ut vehicula scelerisque, ex erat suscipit turpis, vel cursus dui justo in lectus. Etiam mollis efficitur lectus suscipit elementum. Curabitur in viverra sem, eu elementum erat. Morbi a interdum ante. Integer consectetur odio sit amet aliquam rutrum."
     }
 ]
