@@ -21,7 +21,9 @@ function Products() {
                                 <img classname={styles.image} src={element.image} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title my-2">{element.title}</h5>
+                                    <Link to="/product">
                                         <div className="btn btn-primary">know More</div>
+                                    </Link>
                                     <br />
                                 </div>
                             </div>

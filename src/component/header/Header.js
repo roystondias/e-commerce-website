@@ -11,10 +11,10 @@ function Header() {
                 </Link>
                 <nav>
                     <ul>
-                        <li><a href="/">Team</a></li>
+                        <li><a href="/">Products</a></li>
                         <li><a href="/">Contact us</a></li>
                         <li><a href="/">Sign Up</a></li>
-                        <li><a href="/">Cart</a></li>
+                        <li><Link to="/cart">Cart</Link></li>
                     </ul>
                 </nav>
             </div>

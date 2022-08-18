@@ -8,6 +8,7 @@ import Header from './component/header/Header';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Products from './component/content/Products';
 import ProductInfo from './component/content/ProductInfo';
+import Cart from './component/Cart/Cart';
 
 function App() {
   return (
@@ -25,8 +26,10 @@ function App() {
         <Routes>
           <Route path="/product" element={<ProductInfo></ProductInfo>}></Route>
         </Routes>
+        <Routes>
+          <Route path="/cart" element={<Cart></Cart>}></Route>
+        </Routes>
       </Router>
-      <Footer></Footer>
     </>
   );
 }
