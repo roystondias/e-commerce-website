@@ -7,3 +7,28 @@
     width: 100%;
     z-index: 1;
 }
+header img{
+    width: 80px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}

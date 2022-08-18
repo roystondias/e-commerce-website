@@ -1,13 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
-import styles from './Products.module.css'
+import styles from './Products.module.css';
+import { Link } from "react-router-dom";
 
 function Products() {
     const [first, setfirst] = useState([])
     useEffect(() => {
-            let value = fetch("https://sleepy-ravine-13644.herokuapp.com/api");
-            value.then((data) => data.json()).then((output) => setfirst(output))
+        let value = fetch("https://sleepy-ravine-13644.herokuapp.com/api");
+        value.then((data) => data.json()).then((output) => setfirst(output))
     }, [])
 
     return (
@@ -20,10 +21,8 @@ function Products() {
                                 <img classname={styles.image} src={element.image} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title my-2">{element.title}</h5>
-                                    <a href="/" class="btn btn-primary">know More</a>
+                                        <div className="btn btn-primary">know More</div>
                                     <br />
-                                    {/* <p className="card-text">{overview.slice(0, 150)}....</p> */}
-                                    {/* <Modal movieId={id} BASE_URL={BASE_URL} API_KEY={API_KEY}></Modal> */}
                                 </div>
                             </div>
                         </div>
