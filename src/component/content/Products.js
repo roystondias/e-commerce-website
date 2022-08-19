@@ -10,6 +10,7 @@ function Products() {
         let value = fetch("https://sleepy-ravine-13644.herokuapp.com/api");
         value.then((data) => data.json()).then((output) => setfirst(output))
     }, [])
+    
     return (
         <main>
             <div className='container text-center'>

@@ -2,8 +2,14 @@ import React from 'react'
 import styles from './Header.module.css'
 import { Link } from "react-router-dom";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import { useSelector } from "react-redux"
 
 function Header() {
+    let cartValue = useSelector((state) => {
+        return state.buttonClickReducer.cartValue;
+    })
+
+    
     return (
         <header className={styles.header}>
             <div className={styles.container}>
@@ -12,12 +18,12 @@ function Header() {
                 </Link>
                 <nav>
                     <ul>
-                        <li><a href="/">Products</a></li>
-                        <li><a href="/">Contact us</a></li>
-                        <li><a href="/">Sign Up</a></li>
+                        <li><Link to="/">Products</Link></li>
+                        <li><Link to="/">Contact us</Link></li>
+                        <li><Link to="/">Sign Up</Link></li>
                         <li><Link to="/cart">Cart</Link></li>
                         <Link to="/cart" style={{ textDecoration: 'none', color:'white' }}>
-                            <ShoppingBasketIcon></ShoppingBasketIcon><span>0</span>
+                            <ShoppingBasketIcon></ShoppingBasketIcon><span>{cartValue}</span>
                         </Link>
                     </ul>
 
