@@ -3,9 +3,7 @@ const initialState = {
     data: [],
 }
 
-
 const buttonClickReducer = (state = initialState, action) => {
-    // console.log(action.payload);
     switch (action.type) {
         case "ADD_CART":
             return {

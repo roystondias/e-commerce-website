@@ -1,16 +1,18 @@
+//importing all the componets
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import styles from './ProductInfo.module.css'
+
+//using elements from redux store
 import { useLocation } from 'react-router-dom'
 import { useDispatch } from "react-redux"
-import {onAddToCart} from '../../Action/index'
+import { onAddToCart } from '../../Action/index'
 
 function ProductInfo(props) {
   const connection = useLocation();
   let dispatch = useDispatch();
 
-  const onAddCartClick =(event)=>{
-    // console.log("Clicked");
+  const onAddCartClick = (event) => {
     event.preventDefault();
     dispatch(onAddToCart(connection.state));
   }
@@ -22,7 +24,7 @@ function ProductInfo(props) {
       <div className={styles.container}>
         <div className="card text-center">
           <div className="card-body">
-            <img src={connection.state.image} alt="..."/>
+            <img src={connection.state.image} alt="..." />
             <h3>{connection.state.title}</h3>
             <p className="card-text">Rs:{connection.state.price}/-</p>
             <p className="card-text">Ratings:{connection.state.rating}/5</p>

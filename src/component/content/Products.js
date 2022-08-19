@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import styles from './Products.module.css';
+
+//using link from react-router-dom for routing
 import { Link } from "react-router-dom";
 
 function Products() {

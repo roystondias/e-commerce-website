@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from './Header.module.css'
 import { Link } from "react-router-dom";
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { useSelector } from "react-redux"
+
+//using Material UI icons to display the cart icon
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 function Header() {
     let cartValue = useSelector((state) => {
         return state.buttonClickReducer.cartValue;
     })
 
-    
     return (
         <header className={styles.header}>
             <div className={styles.container}>
@@ -22,11 +23,10 @@ function Header() {
                         <li><Link to="/">Contact us</Link></li>
                         <li><Link to="/">Sign Up</Link></li>
                         <li><Link to="/cart">Cart</Link></li>
-                        <Link to="/cart" style={{ textDecoration: 'none', color:'white' }}>
+                        <Link to="/cart" style={{ textDecoration: 'none', color: 'white' }}>
                             <ShoppingBasketIcon></ShoppingBasketIcon><span>{cartValue}</span>
                         </Link>
                     </ul>
-
                 </nav>
             </div>
         </header>
