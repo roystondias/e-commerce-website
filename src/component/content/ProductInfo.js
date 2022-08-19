@@ -21,14 +21,12 @@ function ProductInfo(props) {
       <Header></Header>
       <div className={styles.container}>
         <div className="card text-center">
-          <div className="card-header">
-            {connection.state.title}
-          </div>
           <div className="card-body">
             <img src={connection.state.image} alt="..."/>
-            <p className="card-text">{connection.state.price}</p>
+            <h3>{connection.state.title}</h3>
+            <p className="card-text">Rs:{connection.state.price}/-</p>
+            <p className="card-text">Ratings:{connection.state.rating}/5</p>
             <p className="card-text">{connection.state.description}</p>
-            <p className="card-text">{connection.state.rating}</p>
             <div onClick={onAddCartClick} className="btn btn-primary">Add To Cart</div>
           </div>
         </div>

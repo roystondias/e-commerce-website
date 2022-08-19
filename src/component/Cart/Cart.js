@@ -13,16 +13,15 @@ function Cart() {
         <div>
             <Header></Header>
             <div className={styles.container}>
-            Products Added To the Cart
+            <h3>Products Added To the Cart</h3>
             {ArrayValue.map((element)=>{
-                return <div className="card">
-                    <div className="card-header">
-                        {element.title}
-                    </div>
+                console.log(element.image);
+                return <div className={styles.card}>
+                    <img src={element.image} className={styles.image} alt="..."></img>
+                        <p className="card-text">{element.title}</p>
+                        <p>Ratings: {element.rating}/5</p>
+                        <h5 className="card-title">Rs{element.price}/-</h5>
                     <div className="card-body">
-                        <h5 className="card-title">{element.price}</h5>
-                        <p className="card-text">{element.description}</p>
-                        <div className="btn btn-primary">Go somewhere</div>
                     </div>
                 </div>
             })}

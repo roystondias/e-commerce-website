@@ -10,13 +10,13 @@ function Products() {
         let value = fetch("https://sleepy-ravine-13644.herokuapp.com/api");
         value.then((data) => data.json()).then((output) => setfirst(output))
     }, [])
-    
+
     return (
         <main>
             <div className='container text-center'>
                 <div className="row my-2">
                     {first.map((element) => {
-                        return <div className="col-xl-4 col-xl-4 col-sm-6" key={element.id}>
+                        return <div className="col-xl-4 col-xl-4 col-sm-6 " key={element.id}>
                             <div className="card my-3">
                                 <img classname={styles.image} src={element.image} className="card-img-top" alt="..." />
                                 <div className="card-body">
